@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    background: #fff;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  h1 {
+    font-size: 500px;
+    color: #fff;
+    position: relative;
+    pointer-events: none;
+    margin: 80px 0 0;
+    padding: 0;
+  }
+  
+  section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    pointer-events: none;
+  }
+  
+  span {
+    display: inline-block;
+    padding: 20px 60px;
+    font-family: serif;
+    background: #e1e444;
+    color: #000;
+    pointer-events: all;
+    cursor: pointer;
+    border-radius: 55px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    transition: color 0.2s, background 0.2s;
+  }
+  span:hover {
+    background: #000;
+    color: #fff;
+  }
